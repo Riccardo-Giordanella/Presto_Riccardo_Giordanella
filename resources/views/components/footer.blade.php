@@ -10,22 +10,22 @@
 
     <!-- Right -->
     <div>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-facebook"></i>
       </a>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-x-twitter"></i>
       </a>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-google"></i>
       </a>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-instagram"></i>
       </a>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
       </a>
-      <a href="#" class="me-4 text-reset" target="_blank">
+      <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
         <i class="fa-brands fa-github"></i>
       </a>
     </div>
@@ -34,7 +34,7 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="">
+  <section>
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
       <div class="row mt-3">

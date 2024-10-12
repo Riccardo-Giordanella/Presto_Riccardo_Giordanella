@@ -6,7 +6,7 @@
     @endif
     <div class="mb-3">
         <label for="title" class="form-label">Titolo:</label>
-        <input type="text" class="form-control" id="title" wire:model.blur="title">
+        <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" wire:model.blur="title">
         @error('title')
             <p class="fst-italic text-danger">{{$message}}</p>
         @enderror
@@ -26,9 +26,8 @@
         @enderror
     </div>
     <div class="mb-3">
-        <label for="category" class="mb-2"> Seleziona una categoria:</label>
         <select id="category" wire:model="category" class="form-control @error('category') is-invalid @enderror">
-            <option label disabled></option>
+            <option label selected>Seleziona una categoria</option>
             @foreach ($categories as $category)
                 <option value="{{$category->id}}">{{$category->name}}</option>
             @endforeach
