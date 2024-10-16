@@ -5,3 +5,11 @@
 .card-w{
     width: 20rem;
 }
+
+footer .social-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #ccc;
+}
