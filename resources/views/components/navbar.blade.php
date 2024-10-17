@@ -27,16 +27,16 @@
                     </ul>
                 </li>
                 @auth
-                    @if (Auth::user()->is_revisor)
-                        <li class="nav-item">
-                            <a href="{{route('revisor.index')}}" class="nav-link btn btn-outline-success btn-sm position-relative w-sm-25">
-                                Zona revisore
-                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                                    {{\App\Models\Article::toBeRevisedCount()}}
-                                </span>
-                            </a>
-                        </li>
-                    @endif
+                @if (Auth::user()->is_revisor)
+                <li class="nav-item">
+                    <a href="{{route('revisor.index')}}" class="nav-link btn btn-outline-success btn-sm position-relative w-sm-25">
+                        Zona revisore
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            {{\App\Models\Article::toBeRevisedCount()}}
+                        </span>
+                    </a>
+                </li>
+                @endif
                 <li class="nav-item dropdown">
                     <a href="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Ciao, {{Auth::user()->name}}
@@ -64,4 +64,10 @@
                 @endauth
             </div>
         </div>
+        <form class="d-flex ms-auto" role="search" action="{{route('article.search')}}" method="GET">
+            <div class="input-group">
+                <input class="form-control" type="search" placeholder="Cerca un articolo" name="query">
+                <button class="input-group-text btn btn-outline-success" type="submit" id="basic-addon2">Cerca</button>
+            </div>
+        </form>
     </nav>
