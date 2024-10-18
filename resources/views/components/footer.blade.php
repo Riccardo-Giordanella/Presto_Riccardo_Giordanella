@@ -4,29 +4,29 @@
     <section class="social-section">
         <!-- Left -->
         <div class="me-5 d-none d-lg-block">
-            <span>I nostri social networks:</span>
+            <span>{{__("ui.social")}}</span>
         </div>
         <!-- Left -->
 
         <!-- Right -->
         <div>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-facebook"></i>
+                <i title="Facebook" class="fa-brands fa-facebook"></i>
             </a>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
+                <i title="X" class="fa-brands fa-x-twitter"></i>
             </a>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-google"></i>
+                <i title="Google" class="fa-brands fa-google"></i>
             </a>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-instagram"></i>
+                <i title="Instagram" class="fa-brands fa-instagram"></i>
             </a>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
+                <i title="Linkedin" class="fa-brands fa-linkedin"></i>
             </a>
             <a href="#" class="me-4 text-reset text-decoration-none" target="_blank">
-                <i class="fa-brands fa-github"></i>
+                <i title="Github" class="fa-brands fa-github"></i>
             </a>
         </div>
         <!-- Right -->
@@ -42,10 +42,10 @@
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <!-- Content -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Company name
+                        <i class="fas fa-gem me-3"></i>Presto.it
                     </h6>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        {{__("ui.siteDesc")}}
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -54,11 +54,11 @@
                 <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Links Utili
+                        {{__("ui.link")}}
                     </h6>
-                    <p class="fw-bold">Vuoi diventare revisore?</p>
+                    <p class="fw-bold">{{__("ui.rev")}}</p>
                     <p>
-                        <a href="{{route('become.revisor')}}" class="text-reset btn btn-outline-primary">Diventa revisore</a>
+                        <a href="{{route('become.revisor')}}" class="text-reset btn btn-outline-primary">{{__("ui.become")}}</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -66,7 +66,7 @@
                 <!-- Grid column -->
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                     <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <h6 class="text-uppercase fw-bold mb-4">{{__("ui.contact")}}</h6>
                     <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
                     <p>
                         <i class="fas fa-envelope me-3"></i>

@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <h1 class="display-4 pt-5">
-                    Accedi
+                    {{__("ui.login")}}
                 </h1>
             </div>
         </div>
@@ -13,7 +13,7 @@
             <form method="POST" action="{{route('login')}}" class="bg-secondary-subtle shadow rounded p-5">
                 @csrf
                 <div class="mb-3">
-                    <label for="loginEmail" class="form-label">Indirizzo e-mail</label>
+                    <label for="loginEmail" class="form-label">E-mail</label>
                     <input type="email" class="form-control" id="loginEmail" name="email">
                 </div>
                 <div class="mb-3">
@@ -21,7 +21,7 @@
                     <input type="password" class="form-control" id="password" name="password">
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-dark">Accedi</button>
+                    <button type="submit" class="btn btn-dark">{{__("ui.login")}}</button>
                 </div>
             </form>
         </div>
