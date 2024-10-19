@@ -49,4 +49,6 @@ return [
     'accept' => 'Aceptar',
     'noRevision' => 'No hay elementos para revisar',
     'backToHome' => 'Volver a la página de inicio',
+    'phprev' => "Vista previa de imágenes",
+    'noImg' => "No hay imágenes insertadas por el autor.",
 ];

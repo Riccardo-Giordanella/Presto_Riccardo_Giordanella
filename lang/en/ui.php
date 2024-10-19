@@ -49,4 +49,6 @@ return [
     'accept' => 'Accept',
     'noRevision' => 'No articles to review',
     'backToHome' => 'Back to homepage',
+    'phprev' => "Image preview",
+    'noImg' => "No images added by the author",
 ];

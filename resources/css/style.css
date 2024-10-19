@@ -13,3 +13,11 @@ footer .social-section {
     padding: 10px 50px;
     border-bottom: 1px solid #ccc;
 }
+
+.img-preview{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}

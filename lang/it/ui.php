@@ -49,4 +49,6 @@ return [
     'accept' => 'Accetta',
     'noRevision' => 'Nessun articolo da revisionare',
     'backToHome' => 'Torna alla homepage',
+    'phprev' => "Anteprima delle immagini",
+    'noImg' => "Nessuna immagine inserita dall'utente",
 ];
