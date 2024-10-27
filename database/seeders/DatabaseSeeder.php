@@ -12,12 +12,12 @@ class DatabaseSeeder extends Seeder
     public $categories = [
         'Elettronica',
         'Abbigliamento',
-        'Salute_e_Bellezza',
-        'Casa_e_Giardinaggio',
+        'Salute e Bellezza',
+        'Casa e Giardinaggio',
         'Giocattoli',
         'Sport',
-        'Animali_domestici',
-        'Libri_e_Riviste',
+        'Animali domestici',
+        'Libri e Riviste',
         'Accessori',
         'Motori'
     ];
