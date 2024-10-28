@@ -51,4 +51,12 @@ return [
     'backToHome' => 'Volver a la página de inicio',
     'phprev' => "Vista previa de imágenes",
     'noImg' => "No hay imágenes insertadas por el autor.",
+    'noLabels' => "Sin etiquetas",
+    'Labels' => "Etiquetas",
+    'Ratings' => "Calificaciones",
+    'adult' => 'adultos',
+    'violence' => 'violencia',
+    'spoof' => 'falso',
+    'racy' => 'racista',
+    'medical' => 'medico',
 ];

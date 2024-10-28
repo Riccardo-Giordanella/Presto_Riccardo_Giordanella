@@ -51,4 +51,12 @@ return [
     'backToHome' => 'Back to homepage',
     'phprev' => "Image preview",
     'noImg' => "No images added by the author",
+    'Labels' => "Labels",
+    'noLabels' => "No Labels",
+    'Ratings' => "Ratings",
+    'adult' => 'adult',
+    'violence' => 'violence',
+    'spoof' => 'spoof',
+    'racy' => 'racy',
+    'medical' => 'medical',
 ];

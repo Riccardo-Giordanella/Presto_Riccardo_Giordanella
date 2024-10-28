@@ -51,4 +51,12 @@ return [
     'backToHome' => 'Torna alla homepage',
     'phprev' => "Anteprima delle immagini",
     'noImg' => "Nessuna immagine inserita dall'utente",
+    'Labels' => "Etichette",
+    'noLabels' => "Nessuna etichetta",
+    'Ratings' => "Valutazioni",
+    'adult' => 'adulti',
+    'violence' => 'violenza',
+    'spoof' => 'falso',
+    'racy' => 'razzista',
+    'medical' => 'medico',
 ];
