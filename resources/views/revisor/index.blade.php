@@ -15,7 +15,7 @@
                 <div class="row justify-content-center">
                     @if ($article_to_check->images->count())
                     @foreach ($article_to_check->images as $key => $image)
-                    <div class="col-6">
+                    <div class="col-8">
                         <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
